@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link a estilos bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <title>SurMates</title>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">SurMate</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item p-5">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item p-5">
+                <a class="nav-link" href="./pages/oferta.html">Ofertas</a>
+            </li>
+            <li class="nav-item p-5">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item dropdown p-5">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Info
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a class="dropdown-item" href="./pages/contactanos.html">Contacto</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <!-- nav viejo
+        <nav>
+            <div class="container">
+                <p class="logo">SurMate</p>
+                
+                <a href="#">Inicio</a>
+                <a href="pages/oferta.html">Ofertas</a>
+                <a href="pages/productos.html">Productos</a>
+                <a href="pages/nosotros.html">Nosotros</a>
+                <a href="pages/contactanos.html">Contacto</a>
+            </div>
+        </nav>
+    -->
+
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./public/baner.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./public/baner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./public/baner3.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- 
+
+            <section id="hero">
+                <h1>Tu Mate <br>En El Sur</h1>
+                <button>Surmate</button>
+            </section>
+        -->
+    </header>
+
+    <main>
+
+        <section id="texto">
+            <div class="containerm">
+                
+                <p> Somos la productora numero 1 en el sur en venta de mates, nos destacamos por nuestra excelente atencion pre y post venta. Nuestra amplia variedad de productos y la calidad de los mismos en el sentido de pertenencia a una comunidad que nos permite crecer día tras día.</p>
+            </div>
+        </section>
+
+    <!-- ingreso card -->
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="./public/termosss.jpg" class="card-img-top" alt="Termos">
+            <div class="card-body">
+                <h5 class="card-title">Termos</h5>
+                <p class="card-text">3 y 6 cuotas sin interés</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="./public/materasss.jpg" class="card-img-top" alt="Materas">
+            <div class="card-body">
+                <h5 class="card-title">Materas</h5>
+                <p class="card-text">3 y 6 cuotas sin interés</p>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+        <div class="card h-100">
+        <img src="./public/matesssss.jpg" class="card-img-top" alt="Mates">
+        <div class="card-body">
+            <h5 class="card-title">Mates</h5>
+            <p class="card-text">3 y 6 cuotas sin interés</p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+        <!-- 
+
+            <section id="nuestros-productos">
+                <div class="container">
+                    <h2>Nuestros Productos</h2>
+                    <div class="carta">
+                        <h3>Termos</h3>
+                        <img src="public/termo.jpg" alt="termo">
+                        <button>INFO</button>
+                    </div>
+                    <div class="carta">
+                        <h3>Materas</h3>
+                        <img src="public/materas.jpg" alt="materas">
+                        <button>INFO</button>
+                    </div>
+                    <div class="carta">
+                        <h3>Mates</h3>
+                        <img src="public/mate.jpg" alt="mate">
+                        <button>INFO</button>
+                    </div>
+                -->
+                
+            </div>
+        </section>
+    </main>
+        
+    <aside>
+        <section class="caracteristicas">
+        <div class=p-5 >
+        
+            <ul>
+                <li>🧉 100% online</li>
+                <li>🧉 Flexibilidad de horarios</li>
+                <li>🧉 Soporte 1:1</li>
+                <li>🧉 Envios</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="matetip">
+    <h3>TIPS PARA QUE TU MATE DURE MUCHO MÁS TIEMPO</h3>
+    <div class="imatip">
+        <img src="./public/matetip.png" alt="matetip">
+        <h4>
+            Para limpiar el mate después de cada uso. Evitá poner el mate bajo el agua si ésta entra en contacto con el cuero puede arruinarse o filtrar agua por la virola.
+            
+            
+            
+            Retirá la yerba con una cuchara y quitar los restos con una servilleta. Se aconseja dejar secar al aire libre con una servilleta en su interior para que absorba completamente la humedad del mate.
+
+
+            El agua no debe alcanzar la union de la calabaza con la virola cuando estés cebando, ya que ésta    cumple una función mas bien estética. Si sobrepasamos puede filtrar agua hacia el cuero y arruinarlo; y a su vez aflojar la virola.
+        
+        
+        
+            Purifica e higieniza tus bombillas. Colocar en una olla agua hirviendo, bicarbonato de sodio, limon y dejar reposar unos 10/15 minutos. Repetir este proceso cada 10-15 días.
+        
+    
+    
+            Con estos cuidados tu nuevo compañero va a durar años y años!
+        </h4> 
+    </div>
+</div>
+
+
+    
+    
+    <section class="tipvideo p-5">
+        <h4>TIP PARA UN BUEN MATE!</h4>
+        <div class="p-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0QMZvUnpr5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+</aside>
+
+    <footer>
+        <section class="containerfoo">
+            <div class="row p-5">
+                <div class="col">
+                    <h3>-10% por transferencia</h3>
+                </div>
+                <div class="col">
+                    <h3>Envios sin cargo</h3>
+                </div>
+                <div class="col">
+                    <h3>3  y 6 cuotas sin interes</h3>
+                </div>
+            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <h3>NEWSLETTER</h3>
+                        <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">e-mail</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su e-mail">
+                        <button type="button" class="btn btn-primary btn-sm">Enviar</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </footer>
+
+
+
+
+    <!-- link a script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script
+
+
+</body>
+</html>

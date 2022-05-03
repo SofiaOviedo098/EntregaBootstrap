@@ -1,0 +1,267 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    
+}
+
+.containerm{
+    padding: 18rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.caracteristicas{
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: black;
+    padding: 3rem;
+}
+
+h1{font-size: 4rem;}
+h2{font-size: 3rem;}
+h3{font-size: 2rem;}
+h4{font-size: 1.5rem;}
+p{font-size: 1rem;}
+/* 
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    border: 0;
+}
+*/
+li{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    color: rgb(102, 28, 238);   
+    
+}
+
+button{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,5);
+    background-color: rgb(42, 39, 44);
+    color: white;
+}
+button:hover{
+    background-color: rgb(20, 15, 24);
+}
+
+.matetip{
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.imatip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.imatip h4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.imatip img{
+width: 40%;
+padding: 10px;
+}
+
+
+.tipvideo{
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+}
+
+
+
+.tipvideo iframe{
+    justify-content: center;
+}
+
+.containerfoo{
+    background-color: black;
+    color: bisque;
+}
+
+
+/* 
+.container{
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+}
+
+nav .logo{ 
+    margin: 0;
+    padding: 0 0px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 6rem;
+    top: 2rem;
+}
+
+nav a{
+    display: flexbox;
+    text-align: flex-end;    
+    padding: 5px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 80px 60px;
+    align-items: flex-end;
+    
+}
+
+
+nav .container{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+    
+    */
+    /* 
+    #hero{
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        color:blueviolet;
+        padding: 110px;
+        background-color: rgb(117, 55, 136);
+        background-image: url("public/matehero.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+    
+    .carta{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        max-width: 400px;
+        max-height: 400px;
+    }
+    
+    .tipvideo{
+        display: flex;    
+        background-color: rgba(0, 0, 0, 0.3);
+        max-width: 1500px;
+        margin: auto;
+        justify-content: center;
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    
+    #texto .container{
+        display: flex;
+        text-align: center;
+        padding: 250px 12px;
+        align-items: center;
+        margin: 90px;
+        font-weight: bold;
+        
+    }
+    #nuestros-productos{
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+    }
+    
+    
+    #nuestros-productos .container{
+        padding: 150px 0px;
+    }
+    
+    #nuestros-productos h2{
+        display: flex;
+        text-align: center;
+        margin-top: 100px;
+        padding: right;
+        align-items: center;
+        
+    }
+    
+    .conte-nosotros h2{
+        display: flex;
+        text-align: center;
+        justify-content:space-between;
+        
+    }
+    
+    .conte-nosotros p{
+        font-weight: bold;
+        justify-content: center;
+    align-content: center;
+    
+}
+.containerp h2{
+    padding: 300px;
+    
+}
+
+.combos{
+    
+    color: blueviolet;
+    margin: 85px   ;   
+    padding: 35px; 
+    
+}
+
+.combos h4{
+    
+    color: white;
+    text-align: center;  
+    top: auto;
+}
+
+
+header .containerp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: blueviolet;
+    
+}
+
+
+
+
+
+footer{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+}
